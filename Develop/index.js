@@ -3,11 +3,9 @@ const inquirer = require('inquirer');
 const fs = require('fs');
 const util = require('util');
 
-
 // TODO: Create a function to write README file
 //function writeToFile(fileName, data) { }
 const writeFileAsync = util.promisify(fs.writeFile);
-
 
 // TODO: Create an array of questions for user input
 //const questions = [];
@@ -16,7 +14,7 @@ const promptDeveloper = () => {
     const questions = inquirer.prompt([
         {
             type: 'input',
-            name: 'name',
+            name: 'title',
             message: 'Please enter your project title',
         },
         {
@@ -48,38 +46,38 @@ const promptDeveloper = () => {
     return questions;
 };
 
-const generateMarkdown = (answers) =>
+const generateMarkdown = (data) =>
 `
-# ${answers.name}
+# ${data.title}
 
 ## Project Description
 
-${answers.description}
+${data.description}
 
 
 ## Table Of Contents (TOC)
 
-${answers.tableOfContents}
+${data.tableOfContents}
 
 ## Installation
 
-${answers.installation}
+${data.installation}
 
 ## Usage
 
-${answers.usage}
+${data.usage}
 
 ## License
 
-${answers.license}
-
+${data.license}
+[![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)
 `;
 
 // TODO: Create a function to initialize app
 //function init() { }
 const init = () => {
     promptDeveloper()
-        .then((answers) => writeFileAsync('README.md', generateMarkdown(answers)))
+        .then((data) => writeFileAsync('README.md', generateMarkdown(data)))
         .then(() => console.log('Successfully wrote to README.md'))
         .catch((err) => console.error(err));
 };

@@ -3,12 +3,12 @@
 
 ## Project Description
 
-Creates a simple project README.md file
+creates a basic project README.MD file
 
 
 ## Table Of Contents (TOC)
 
-Tech Used - js
+yep nope
 
 ## Installation
 
@@ -16,9 +16,9 @@ n/a
 
 ## Usage
 
-answer the questions. Generate a README.md file
+just answer the questions
 
 ## License
 
 MIT
-
+[![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)
