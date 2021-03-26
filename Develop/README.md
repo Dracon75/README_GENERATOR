@@ -1,24 +1,43 @@
 
-# README_GENERATOR
+## Project Title
+
+# yep
 
 ## Project Description
+cool
 
-Creates a simple project README.md file
-
+## Project Link
+sure
 
 ## Table Of Contents (TOC)
 
-Tech Used - js
+whatever
 
 ## Installation
 
-n/a
+dont know
 
 ## Usage
 
-answer the questions. Generate a README.md file
+are we done
+
+
 
 ## License
 
 MIT
+[![GitHub license] (https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)
+
+## Contibuting
+me
+
+## Tech Used
+all sorts
+
+## Tests
+no clue
+
+## Questions
+zzzzzzz
+xxxxxxx
 
