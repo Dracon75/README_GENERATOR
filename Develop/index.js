@@ -95,21 +95,16 @@ ${data.description}
 ${data.projectlink}
 
 ## Table Of Contents (TOC)
-
 ${data.tableOfContents}
 
 ## Installation
-
 ${data.installation}
 
 ## Usage
-
 ${data.usage}
-
 ${data.photos}
 
 ## License
-
 ${data.license}
 [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)
 
@@ -125,7 +120,6 @@ ${data.tests}
 ## Questions
 ${data.questions}
 ${data.contact}
-
 `;
 
 // TODO: Create a function to initialize app
@@ -138,6 +132,7 @@ const init = () => {
 
 // Function call to initialize app
 init();
+
 
 
 
