@@ -1,43 +1,51 @@
 
 ## Project Title
 
-# yep
+# README GENERATOR
 
 ## Project Description
-cool
+A basic README.md file generator
 
 ## Project Link
-sure
+https://dracon75.github.io/README_GENERATOR/
 
-## Table Of Contents (TOC)
 
-whatever
+----
+
+## :brain: Table Of Contents (TOC)
+1. [Installation](#installation)
+2. [Usage](#usage)
+3. [License](#license)
+4. [Contributing](#contributing)
+5. [Tech](#tech)
+6. [Tests](#tests)
+notsure
+
+----
 
 ## Installation
-
-dont know
+n/a
 
 ## Usage
-
-are we done
-
-
+answer the questions 
+<img src="../READMEGEN_Pic.png">
 
 ## License
-
 MIT
-[![GitHub license] (https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)
+[![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)
 
 ## Contibuting
-me
+Nathaniel Northrop
 
 ## Tech Used
-all sorts
+node.js and npm package inquirer
 
 ## Tests
-no clue
+n/a
 
 ## Questions
-zzzzzzz
-xxxxxxx
+dracon75
+nanorth75@gmail.com
+
+----
 

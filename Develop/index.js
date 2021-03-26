@@ -30,7 +30,7 @@ const promptDeveloper = () => {
         {
             type: 'list-input',
             name: 'tableOfContents',
-            message: 'Please enter README section titles',
+            message: 'Please enter additional README section titles',
         },
         {
             type: 'input',
@@ -45,13 +45,13 @@ const promptDeveloper = () => {
         {
             type: 'input',
             name: 'photos',
-            message: 'put a photo link here. Otherwise leave blank',
+            message: 'put a photo link here. Otherwise leave blank. example format: <img src="assets/mobile-home.png">',
         },
         {
             type: 'list',
             name: 'license',
             message: 'What type of license does this project have?',
-            choices: ["none", "MIT", "Apache", "GPL3.0"],
+            choices: ["none", "MIT", "Apache", "GPL3"],
         },
         {
             type: 'input',
@@ -94,8 +94,19 @@ ${data.description}
 ## Project Link
 ${data.projectlink}
 
-## Table Of Contents (TOC)
+
+----
+
+## :brain: Table Of Contents (TOC)
+1. [Installation](#installation)
+2. [Usage](#usage)
+3. [License](#license)
+4. [Contributing](#contributing)
+5. [Tech](#tech)
+6. [Tests](#tests)
 ${data.tableOfContents}
+
+----
 
 ## Installation
 ${data.installation}
@@ -120,6 +131,9 @@ ${data.tests}
 ## Questions
 ${data.questions}
 ${data.contact}
+
+----
+
 `;
 
 // TODO: Create a function to initialize app
